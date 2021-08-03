@@ -1,0 +1,136 @@
+/*reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*common*/
+.rt{
+    float: right;
+}
+.col{
+    float: left;
+}
+.half {
+    width: 50%;
+}
+.text-center{
+    text-align: center;
+}
+.space-5{
+    letter-spacing: 5px;
+}
+
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1,5;
+}
+/*main*/
+#header{
+   padding: 8px 16px; 
+   border: 1px solid #ddd;
+}
+
+#nav a{
+    text-decoration: none;
+    color: #000;
+    line-height: 38px;
+    padding:8px 16px;
+}
+#nav a:hover{
+    background-color: #757575;
+}
+.slider{
+    background: url(/assets/img/h.jpg);
+    background-repeat:no-repeat ;
+    background-position: top center;    
+    background-size: 100%;
+    height: 800px;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+.slider .name{
+    font-size: 36px;
+    text-align: center;
+    position:absolute;
+    left:0;
+    bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.about{
+    padding: 120px 0;
+}
+.about img{
+    width: 50%;
+    padding: 12px 24px;
+}
+.infor{
+    width: 50%;
+    float: right;
+    padding: 12px 24px;
+}
+.heading{
+    font-size: 36px;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.subheading{
+    color: #000;
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 540;
+}    
+.content{
+    line-height: 2;
+    text-align: justify;
+}   
+.content2{
+    margin-top: 16px;
+}
+.desc{
+    margin:15px 0;
+    color: gray;
+}
+.menu{
+    padding: 64px 16px;
+}
+.menu img{
+    width: 50%;
+    float: right;
+    
+}
+contact{
+    padding: 64px 16px;
+}
+.service{
+    margin: 15px 0;
+}
+.phonenumber{
+    margin: 15px 0;
+}
+.form-control{
+    width: 100%;
+    padding:16px 8px;
+    border: 1px solid #ddd;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+}
+.contact b{
+    color: aqua;
+}
+.btn{
+    padding: 8px 16px;
+    margin: 16px 0;
+}
+.copyright{
+    background-color:#f1f1f1;
+    text-align: center;
+    padding: 32px 0;
+
+}
+.copyright a{
+    color: #000;
+}
+
